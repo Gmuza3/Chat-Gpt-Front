@@ -1,0 +1,46 @@
+.gradient-01 {
+    position: absolute;
+    background: #ca00ff; 
+    height: 238px;
+    min-width: 200px;
+    top: 0;
+    left: 0;
+    z-index: 22;
+    filter: blur(175px);
+  }
+  
+  .gradient-02 {
+    position: absolute;
+    background: #2575fc;
+    height: 238px;
+    min-width: 238px;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    filter: blur(175px);
+  }
+  
+@media  (min-width:740px) {
+  .gradient-01{
+    min-width: 360px;
+  }
+  .gradient-02{
+    min-width: 360px;
+  }
+}
+@media  (min-width:1140px) {
+  .gradient-01{
+    min-width: 500px;
+  }
+  .gradient-02{
+    min-width: 500px;
+  }
+}
+@media  (min-width:1440px) {
+  .gradient-01{
+    min-width: 600px;
+  }
+  .gradient-02{
+    min-width: 600px;
+  }
+}
